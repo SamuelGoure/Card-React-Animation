@@ -1,0 +1,55 @@
+.carte2{
+    display: flex;
+    flex-direction: column;
+    color: hsl(234, 14%, 74%);
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+h3{
+   padding: 30px 10px;
+}
+.tilte{
+    font-size: 50px;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: black;
+}
+h1 span{
+    font-size: 35px;
+    padding: 10px 5px;
+}
+
+
+ul li{
+    list-style-type: none;
+   padding: 15px;
+    border-top: 1px solid hsl(234, 14%, 74%); 
+    border-bottom: 1px solid hsl(234, 14%, 74%); 
+    
+}
+ul li a{
+   
+    color: hsl(234, 14%, 74%);
+    font-weight: bold; 
+}
+button{
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: hsl(236, 72%, 79%);
+    color: #fff;
+}
+button:hover{
+    color:  hsl(236, 72%, 79%);
+    background-color: #fff;
+    border: 1px solid  hsl(236, 72%, 79%);
+}
