@@ -1,14 +1,15 @@
-.carte1{
+.carte{
     display: flex;
     flex-direction: column;
-    color: #fff;
-    background-color:  hsl(236, 72%, 79%);
+    background-color:  white;
     width: 350px;
     height: 450px;
     border-radius: 20px;
     text-align: center;
     text-decoration: none;
     padding: 15px 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
 }
 h3{
    padding: 30px 10px;
@@ -27,7 +28,7 @@ h1 span{
 
 .listes li{
     list-style-type: none;
-   padding: 15px;
+    padding: 15px;
     border-top: 1px solid #fff; 
     border-bottom: 1px solid #fff; 
     
@@ -37,7 +38,7 @@ h1 span{
     color: #fff;
     font-weight: bold; 
 }
-.btn1{
+.btn{
     padding: 10px;
     margin-top: 25px;
     border-radius: 10px;
@@ -45,8 +46,16 @@ h1 span{
     color: hsl(236, 72%, 79%) ;
     background-color: hsl(240, 78%, 98%);
 }
-.btn1:hover{
+.btn:hover{
     color: #fff;
     background-color: hsl(236, 72%, 79%);
     border: 1px solid #fff;
+}
+
+body {
+    background-color: red !important;
+}
+
+.active{
+    background-color:  hsl(236, 72%, 79%) ;
 }

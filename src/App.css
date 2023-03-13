@@ -14,3 +14,7 @@
   background-color: #fffafa;
   font-family: 'Montserrat', sans-serif;
 }
+
+#root{
+  background-color: red !important;
+}
